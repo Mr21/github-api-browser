@@ -1,0 +1,24 @@
+#list .item {
+	display: flex;
+	align-items: center;
+	padding: $list_pd;
+	border-bottom: 1px solid $item_bdC;
+
+	&:hover {
+		background: $itemHover_bg;
+	}
+
+	.avatar {
+		width: 60px;
+		height: 60px;
+		border-radius: $item_bdR;
+
+		&.loading {
+			background: no-repeat center url( "loading.gif" );
+		}
+	}
+	.name {
+		margin-left: $list_pd;
+		font-size: 18px;
+	}
+}

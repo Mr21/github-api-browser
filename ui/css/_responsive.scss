@@ -1,0 +1,9 @@
+@media screen and ( max-width: $_resp_medium ) {
+	#header {
+		text-align: center;
+	}
+	#search [type="text"],
+	#list {
+		border-radius: 0;
+	}
+}

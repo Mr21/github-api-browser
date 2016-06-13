@@ -1,0 +1,30 @@
+$_bdR: 4px;
+$_mgY: 15px;
+$_resp_medium: 600px;
+
+// ---------------------------
+
+$body_bg: #484848;
+$body_color: #fff;
+$body_fontSize: 14px;
+
+$scrollbar_width: 8px;
+$scrollbarThumb_bg: #666;
+$scrollbar_bg: darken( $scrollbarThumb_bg, 20% );
+
+$app_width: $_resp_medium;
+$app_height: 800px;
+
+$headerH1_mgY: $_mgY;
+
+$searchInput_mgY: $_mgY;
+$searchInput_bdR: $_bdR;
+
+$list_bg: #313131;
+$list_bdR: $_bdR;
+$list_pd: 10px;
+$listPlaceholder_color: $body_bg;
+
+$item_bdC: darken( $list_bg, 5 );
+$item_bdR: $_bdR;
+$itemHover_bg: darken( $list_bg, 2 );

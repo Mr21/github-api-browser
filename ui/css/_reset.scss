@@ -1,0 +1,34 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: $body_fontSize;
+	font-family: "FiraSansRegular", sans-serif;
+	color: $body_color;
+	background: $body_bg;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a,
+input {
+	outline: 0;
+}
+
+::-webkit-scrollbar {
+	width: $scrollbar_width;
+	height: $scrollbar_width;
+
+	&-track {
+		// background: $scrollbar_bg;
+	}
+	&-thumb {
+		background: $scrollbarThumb_bg;
+		border-radius: 4px;
+	}
+}

@@ -1,0 +1,14 @@
+nav {
+	a {
+		display: inline-block;
+		padding: 3px 9px;
+		font-size: 16px;
+		margin-right: 5px;
+		border-radius: 4px;
+		background: #6b6b6b;
+
+		&.selected {
+			background: #93a28d;
+		}
+	}
+}

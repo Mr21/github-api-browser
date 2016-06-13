@@ -1,0 +1,43 @@
+#list {
+	position: relative;
+	flex: 1;
+	overflow: auto;
+	border-radius: $list_bdR;
+	background: $list_bg;
+
+	.placeholder {
+		$ftS: 300px;
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		margin-top: -$ftS / 2;
+		text-align: center;
+
+		&:last-child {
+			display: block;
+		}
+		.loading {
+			$s: 48px;
+			display: none;
+			position: absolute;
+			top: -50px;
+			left: 50%;
+			width: $s;
+			margin-left: -$s / 2;
+		}
+		.fa {
+			font-size: $ftS;
+			color: $listPlaceholder_color;
+		}
+	}
+
+	&.loading {
+		.placeholder {
+			.loading {
+				display: block;
+			}
+		}
+	}
+}
+
